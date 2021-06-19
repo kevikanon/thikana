@@ -1,0 +1,26 @@
+{
+	"name": "kevikanon/thikana",
+	"description": "A helper package for addresses of Bangladesh.",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Salah Uddin Kanon",
+			"email": "kevikanon@gmail.com"
+		}
+	],
+	"minimum-stability": "stable",
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"Kevikanon\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Kevikanon\\ThikanaServiceProvider"
+			]
+		}
+	}
+}
